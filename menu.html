@@ -15,6 +15,7 @@
             align-items: center;
             color: white; /* White text */
             font-family: Arial, sans-serif;
+            overflow: hidden; /* Hide scrollbars */
         }
         .embed {
             background-color: #2f3136; /* Discord embed background color */
@@ -67,10 +68,10 @@
     </div>
     <div class="fade-text">@chubbyisaprettykitty</div>
     <script>
-        // Redirect after 7 seconds (5 seconds after fade-in animation)
+        // Redirect after the fade-in animation and an additional 5 seconds
         setTimeout(() => {
             window.location.href = 'https://surge-services.store';
-        }, 7000); // Redirect after 7 seconds
+        }, 7000); // Redirect after 7 seconds (2 seconds for fade-in + 5 seconds delay)
     </script>
 </body>
 </html>
